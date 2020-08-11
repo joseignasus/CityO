@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944932283622",
+    "firebase_url": "https://city-o.firebaseio.com",
+    "project_id": "city-o",
+    "storage_bucket": "city-o.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944932283622:android:ddf501b03aa1f7faa60727",
+        "android_client_info": {
+          "package_name": "com.example.city_o"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944932283622-8k2f5kmci5j17n6vkakh9se3mo73i5fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx0XpGa9FD7QAi0feK8f4I679JPYq8i10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944932283622-8k2f5kmci5j17n6vkakh9se3mo73i5fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
