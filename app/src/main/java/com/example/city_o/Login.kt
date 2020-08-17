@@ -70,14 +70,13 @@ class Login : AppCompatActivity() {
         loginUser()
     }
 
-   /* fun forgotPassword(view: View) {
+   /** fun forgotPassword(view: View) {
         startActivity(Intent(this,
             ForgotPasswordActivity::class.java))
     }*/
-    /*
     fun register(view: View) {
         startActivity(Intent(this, RegisterActivity::class.java))
-    }*/
+    }
 
 
 
