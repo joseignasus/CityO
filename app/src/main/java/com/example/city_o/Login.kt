@@ -82,10 +82,10 @@ class Login : AppCompatActivity() {
     }
 
 
-    /*private fun signIn() {
+    private fun signIn() {
         val signInIntent: Intent = mGoogleSignInClient.signInIntent
         startActivityForResult(signInIntent, RC_SIGN_IN)
-    }*/
+    }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -125,8 +125,8 @@ class Login : AppCompatActivity() {
     /************** BUTTONS EVENTS******************/
     private fun goHome() {
         //mProgressBar.hide()
-        val intent = Intent(this, MainActivity::class.java)
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        val intent = Intent(this, MainScreamMenu::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         startActivity(intent)
     }
 
