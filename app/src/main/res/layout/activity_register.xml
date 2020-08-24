@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:Android="http://schemas.android.com/tools"
     android:background="#4121D4F3"
     android:orientation="vertical">
 
@@ -50,14 +51,23 @@
                 android:hint="@string/password"
                 android:inputType="textPassword" />
 
-            <Button
-                style="@style/viewCustom"
-                android:background="@drawable/rounded_frame_button"
-                android:onClick="register"
-                android:text="@string/createAct"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_button"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="8dp"
+                android:onClick="setupUI"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
         </LinearLayout>
 
     </FrameLayout>
+
 </LinearLayout>

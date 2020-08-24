@@ -67,14 +67,13 @@
                         android:textStyle="bold"
                         tools:ignore="OnClick" />
 
-                    <Button
-                        android:id="@+id/create"
-                        style="@style/viewCustom"
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/google_button"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@drawable/rounded_frame_button"
-                        android:onClick="register"
+                        android:onClick="setupUI"
                         android:text="@string/createAct"
                         android:textColor="@android:color/white"
                         android:textStyle="bold"
